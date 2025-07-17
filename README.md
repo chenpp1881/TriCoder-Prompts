@@ -3,9 +3,8 @@
 
 # Complete Prompt Templates for TriCoder Implementation
 
-This section presents all prompt templates used in implementing **TriCoder**, where content requiring substitution is indicated with square brackets `[]`.
+This section presents all prompt templates used in implementing **TriCoder**, where content requiring substitution is indicated with square brackets `[]`. Note that all the prompts have been embedded in our reproducible package and can be directly invoked.
 
----
 
 ## Task-Specific Perspective Generation Prompt
 
@@ -43,7 +42,7 @@ Your entire output must be a single JSON object enclosed in
 a Markdown code block. Do not add any text before or after 
 the Markdown block. Follow this structure exactly:
 
-```json
+json
 {
   "Task-specific Perspectives": [
     {
