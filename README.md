@@ -56,9 +56,6 @@ json
   ]
 }
 ```
-```
-
----
 
 ## Perspective Deduplication Prompt
 
@@ -98,23 +95,20 @@ any text before or after the JSON.
 
 Follow this structure exactly:
 
-```json
+json
 {
   "perspectives_to_remove": [
     "Name of a redundant perspective from Set B",
     "Name of another redundant perspective from Set B"
   ]
 }
-```
 
 **Example of an empty output (no redundancies found):**
 
-```json
+json
 {
   "perspectives_to_remove": []
 }
-```
-```
 
 ---
 
