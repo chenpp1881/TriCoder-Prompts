@@ -110,7 +110,7 @@ json
   "perspectives_to_remove": []
 }
 
----
+```
 
 ## Perspective Consolidation Prompt
 
@@ -158,9 +158,6 @@ the block. Use the following structure:
   ]
 }
 ```
-```
-
----
 
 ## Relevance Scoring Prompt
 
@@ -176,9 +173,8 @@ according to a defined task.
 [Task Definition]
 
 **2. Code Snippet to Analyze:**
-```[Language]
+[Language]
 [Code]
-```
 
 **3. Perspective to Evaluate:**
 - **Name**: [Perspective Name]
@@ -205,9 +201,6 @@ Return a single JSON object containing only the relevance score:
   "relevance_score": <your score from 1 to 5>
 }
 ```
-```
-
----
 
 ## Multi-Perspective Code Analysis Prompt
 
@@ -239,5 +232,4 @@ perspective names exactly:
   "[Perspective Name 2]": "Your detailed assessment for this criterion.",
   ...
 }
-```
 ```
